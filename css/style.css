@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+}
+
+button {
+    height: 40px;
+    width: 60px;           
+}
+
+lglobe {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    background: radial-gradient(circle at top right, #00FFFF, #FFF000, #FF0000);   
+    position: absolute;
+    left: 65px;  
+    display: none;    
+}
+
+rglobe {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    background: radial-gradient(circle at top left, #00FF00, #000FFF, #FF0F00);
+    position: absolute;    
+    left: 800px;
+    top: 10px;    
+    display: none;
+}
+
+cglobe {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    background: radial-gradient(circle at bottom right, #00CC00, #CC0000,#00CCCC);
+    position: absolute;    
+    left: 400px;
+    top: 200px;    
+    display: none;
+}
+
+blglobe {
+    border: 1px solid black;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+    background: radial-gradient(circle at bottom left, #00CCFF, #FFF000,#00FF00);
+    position: absolute;   
+    left: 150px;
+    top: 300px;
+    display: none;  
+}
