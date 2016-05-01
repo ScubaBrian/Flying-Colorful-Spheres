@@ -2,7 +2,7 @@ $(document).ready(function () {
     "use strict";
     doSomething();
 });
-    
+
 var lglobe = document.createElement('lglobe');
 var rglobe = document.createElement('rglobe');
 var cglobe = document.createElement('cglobe');
@@ -42,7 +42,7 @@ function doSomething() {
                     opacity: ''
                 });
             });
-            
+
             $rglobe.fadeIn(2000);
             $rglobe.animate({
                 opacity: 0.001,
@@ -59,7 +59,7 @@ function doSomething() {
                     opacity: ''
                 });
             });
-        
+
             $cglobe.fadeIn(3000);
             $cglobe.animate({
                 opacity: 0.001,
@@ -75,7 +75,6 @@ function doSomething() {
                     opacity: ''
                 });
             });
-        
             $blglobe.fadeIn(3000);
             $blglobe.animate({
                 opacity: 0.001,
@@ -91,24 +90,6 @@ function doSomething() {
                     opacity: ''
                 });
             });
-        }, 1000);
-            
-   
+        }, 1000);  
     });
 }
-
-               
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
